@@ -1,0 +1,31 @@
+add_newline = false
+
+[character]
+# Starship 1.19-style config: no "symbol" key, only success/error/vim ones
+format = "$symbol "        # use the module's symbol variable
+success_symbol = "λ"       # shown on success
+error_symbol   = "λ"       # shown on error
+vicmd_symbol   = "λ"       # vim normal mode (if you use it)
+
+# Disable git info
+[git_branch]
+disabled = true
+
+[git_status]
+disabled = true
+
+# Disable language/version detectors (C, Python, node, etc.)
+[c]
+disabled = true
+[nodejs]
+disabled = true
+[python]
+disabled = true
+[rust]
+disabled = true
+[golang]
+disabled = true
+[java]
+disabled = true
+[package]
+disabled = true

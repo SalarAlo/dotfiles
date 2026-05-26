@@ -1,0 +1,100 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "padding": {
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "cyan",
+      "title": "blue",
+      "output": "white"
+    },
+    "key": {
+      "width": 10
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "arch // workstation"
+    },
+    {
+      "type": "separator",
+      "string": "----------------"
+    },
+    {
+      "type": "os",
+      "key": "distro"
+    },
+    {
+      "type": "kernel",
+      "key": "kernel"
+    },
+    {
+      "type": "uptime",
+      "key": "uptime"
+    },
+    {
+      "type": "packages",
+      "key": "pkgs",
+      "combined": true
+    },
+    {
+      "type": "shell",
+      "key": "shell"
+    },
+    {
+      "type": "de",
+      "key": "desktop"
+    },
+    {
+      "type": "wm",
+      "key": "wm"
+    },
+    {
+      "type": "terminal",
+      "key": "term"
+    },
+    {
+      "type": "cpu",
+      "key": "cpu",
+      "temp": false,
+      "showPeCoreCount": false
+    },
+    {
+      "type": "gpu",
+      "key": "gpu",
+      "temp": false
+    },
+    {
+      "type": "memory",
+      "key": "mem"
+    },
+    {
+      "type": "disk",
+      "key": "disk",
+      "folders": "/",
+      "showExternal": false,
+      "showHidden": false,
+      "showSubvolumes": false,
+      "showReadOnly": false
+    },
+    {
+      "type": "battery",
+      "key": "battery"
+    },
+    {
+      "type": "locale",
+      "key": "locale"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    }
+  ]
+}

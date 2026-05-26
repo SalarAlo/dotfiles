@@ -1,0 +1,49 @@
+* {
+//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
+	font-family: "FiraCode Nerd Font", monospace;
+	font-size: 14px;
+}
+
+window {
+	background-color: #0f0f0f;
+	/* tiefer als #121212 */
+	border-radius: 8px;
+	border: 1px solid #242424;
+	/* subtiler Rahmen */
+}
+
+#outer-box {
+	padding: 12px;
+}
+
+#input {
+	padding: 8px 10px;
+	margin-bottom: 10px;
+	background-color: #1b1b1b;
+	/* klarer Abstand zum Window */
+	color: #e2e2e2;
+	border-radius: 6px;
+	border: 1px solid #2d2d2d;
+}
+
+#inner-box {
+	margin-top: 4px;
+}
+
+#entry {
+	padding: 8px 10px;
+	background-color: transparent;
+	color: #cfcfcf;
+	/* minimal dunkler Text */
+	border-radius: 6px;
+}
+
+#entry:selected {
+	background-color: #2f2f2f;
+	/* dunkler Fokus, kein Grau-Flash */
+	color: #ffffff;
+}
+
+#scroll {
+	margin: 0;
+}

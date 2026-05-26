@@ -1,0 +1,37 @@
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups"
+  ],
+"layer": "top",
+"position": "top",
+"exclusive": true,
+"passthrough": false,
+"gtk-layer-shell": true,
+"spacing": 8,
+"margin-left": 12,
+"margin-right": 12,
+"margin-top": 10,
+
+"modules-left": [
+	"idle_inhibitor",
+	"group/mobo_drawer",
+	"hyprland/workspaces#rw",
+	"tray",
+	"mpris",
+	],
+
+"modules-center": [
+	"clock#2",
+	"group/notify",
+	],
+
+"modules-right": [
+	"hyprland/window",
+	"battery",
+ 	"group/audio",
+	"custom/power",
+	],
+}

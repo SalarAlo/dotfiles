@@ -1,0 +1,39 @@
+# Local app state, secrets, and machine-specific data
+.agents/
+.android/
+.codex/
+dconf/
+mozilla/
+obsidian/
+pulse/
+session/
+spotify/
+
+# Nested repositories and editor/runtime artifacts
+**/.git/
+**/.git/*
+**/*.log
+**/logs/
+**/Cache/
+**/cache/
+nvim/nvim.log
+ghc/ghci_history
+
+# Telemetry, cookies, databases, and machine-specific outputs
+go/telemetry/
+obs-studio/logs/
+obs-studio/profiler_data/
+obs-studio/plugin_config/
+obs-studio/plugin_manager/
+obs-studio/crashes/
+obs-studio/updates/
+obs-studio/user.ini
+obs-studio/basic/profiles/
+obs-studio/basic/scenes/
+user-dirs.dirs
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*~
+*.swp

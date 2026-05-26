@@ -1,0 +1,249 @@
+* {
+	font-family: "JetBrainsMono Nerd Font Mono", "JetBrainsMono Nerd Font", "Symbols Nerd Font Mono", monospace;
+	font-size: 14px;
+	font-weight: 600;
+	min-height: 0;
+	border: none;
+	border-radius: 0;
+}
+
+window#waybar,
+window#waybar.empty,
+window#waybar.empty #window {
+	background-color: transparent;
+	color: #e7edf5;
+}
+
+tooltip {
+	background-color: rgba(20, 20, 20, 0.96);
+	color: #e7edf5;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 0;
+}
+
+tooltip label {
+	color: #e7edf5;
+	padding: 2px 4px;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+	background-color: transparent;
+	color: #e7edf5;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+
+#backlight,
+#backlight-slider,
+#battery,
+#bluetooth,
+#clock,
+#cpu,
+#disk,
+#idle_inhibitor,
+#keyboard-state,
+#memory,
+#mode,
+#mpris,
+#network,
+#power-profiles-daemon,
+#pulseaudio,
+#pulseaudio-slider,
+#taskbar,
+#temperature,
+#tray,
+#window,
+#wireplumber,
+#workspaces,
+#custom-backlight,
+#custom-browser,
+#custom-cava_mviz,
+#custom-cycle_wall,
+#custom-dot_update,
+#custom-file_manager,
+#custom-keybinds,
+#custom-keyboard,
+#custom-light_dark,
+#custom-lock,
+#custom-hint,
+#custom-hypridle,
+#custom-menu,
+#custom-playerctl,
+#custom-power_vertical,
+#custom-power,
+#custom-quit,
+#custom-reboot,
+#custom-settings,
+#custom-spotify,
+#custom-swaync,
+#custom-tty,
+#custom-updater,
+#custom-hyprpicker,
+#custom-weather,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.default,
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.severe,
+#custom-weather.showyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.sunnyDay {
+	color: #e7edf5;
+	padding: 4px 7px;
+	margin: 0 1px;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+#backlight:hover,
+#battery:hover,
+#bluetooth:hover,
+#clock:hover,
+#cpu:hover,
+#disk:hover,
+#idle_inhibitor:hover,
+#keyboard-state:hover,
+#memory:hover,
+#mpris:hover,
+#network:hover,
+#power-profiles-daemon:hover,
+#pulseaudio:hover,
+#temperature:hover,
+#tray:hover,
+#window:hover,
+#workspaces:hover,
+#custom-browser:hover,
+#custom-dot_update:hover,
+#custom-file_manager:hover,
+#custom-keyboard:hover,
+#custom-light_dark:hover,
+#custom-lock:hover,
+#custom-menu:hover,
+#custom-power:hover,
+#custom-reboot:hover,
+#custom-settings:hover,
+#custom-swaync:hover,
+#custom-tty:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#clock {
+	min-width: 88px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #f1f1f1;
+}
+
+#window {
+	color: rgba(231, 237, 245, 0.62);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#mpris {
+	color: rgba(231, 237, 245, 0.62);
+}
+
+#tray {
+	padding-right: 6px;
+}
+
+#tray>.needs-attention {
+	background-color: rgba(248, 113, 113, 0.18);
+	border-radius: 0;
+}
+
+#taskbar button,
+#workspaces button {
+	color: rgba(231, 237, 245, 0.62);
+	background-color: transparent;
+	padding: 2px 6px;
+	margin: 0 1px;
+	border-radius: 0;
+}
+
+#taskbar button:hover,
+#workspaces button:hover {
+	color: #e7edf5;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+#taskbar button.active,
+#workspaces button.active {
+	color: #ffffff;
+	background-color: transparent;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#workspaces button.persistent {
+	color: rgba(231, 237, 245, 0.48);
+}
+
+#idle_inhibitor.activated,
+#custom-hypridle.notactive {
+	color: #86efac;
+}
+
+#pulseaudio.muted {
+	color: #f87171;
+}
+
+#temperature.critical {
+	color: #f87171;
+}
+
+#battery.warning {
+	color: #fbbf24;
+}
+
+@keyframes critical-blink {
+	0% {
+		background-color: transparent;
+		color: #f87171;
+	}
+
+	100% {
+		background-color: rgba(248, 113, 113, 0.16);
+		color: #ffe4e6;
+	}
+}
+
+#battery.critical:not(.charging) {
+	color: #f87171;
+	animation: critical-blink 1.2s ease-in-out infinite alternate;
+}
+
+#battery.charging,
+#battery.plugged {
+	color: #86efac;
+}
+
+#backlight-slider slider,
+#pulseaudio-slider slider {
+	min-width: 0;
+	min-height: 0;
+	opacity: 0;
+	background-image: none;
+	border: none;
+}
+
+#backlight-slider trough,
+#pulseaudio-slider trough {
+	min-width: 64px;
+	min-height: 4px;
+	background-color: rgba(255, 255, 255, 0.08);
+	border-radius: 0;
+}
+
+#backlight-slider highlight,
+#pulseaudio-slider highlight {
+	min-height: 4px;
+	background-color: #d1d5db;
+	border-radius: 0;
+}

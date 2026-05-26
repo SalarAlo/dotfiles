@@ -1,0 +1,132 @@
+* {
+    font: "JetBrains Mono 11";
+
+    bg:            #0b0b0b;
+    bg-alt:        #141414;
+    fg:            #e6e6e6;
+    fg-muted:      #9a9a9a;
+    border:        #2a2a2a;
+    selected:      #1f1f1f;
+    selected-fg:   #ffffff;
+    urgent:        #2a1515;
+    urgent-fg:     #ffb4b4;
+
+    background-color: transparent;
+    text-color: @fg;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+window {
+    width: 24%;
+    location: center;
+    anchor: center;
+    transparency: "real";
+    background-color: @bg;
+    border: 1px;
+    border-color: @border;
+    border-radius: 0;
+}
+
+mainbox {
+    background-color: @bg;
+    children: [ inputbar, message, listview ];
+    padding: 0 0 2px 0;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    text-color: @fg;
+    children: [ prompt, entry ];
+    padding: 10px 12px;
+    spacing: 10px;
+    border: 0 0 1px 0;
+    border-color: @border;
+}
+
+prompt {
+    background-color: inherit;
+    text-color: @fg-muted;
+    str: ">";
+}
+
+entry {
+    background-color: inherit;
+    text-color: @fg;
+    placeholder: "search";
+    placeholder-color: @fg-muted;
+}
+
+message {
+    background-color: @bg;
+    border: 0 0 1px 0;
+    border-color: @border;
+}
+
+textbox {
+    padding: 10px 12px;
+    background-color: @bg;
+    text-color: @fg-muted;
+}
+
+listview {
+    background-color: @bg;
+    lines: 4;
+    columns: 2;
+    cycle: false;
+    dynamic: true;
+    fixed-height: false;
+    scrollbar: false;
+    spacing: 0;
+    padding: 2px 0 0 0;
+}
+
+element {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 8px 12px;
+    spacing: 10px;
+    border: 0;
+    border-radius: 0;
+}
+
+element normal.normal {
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element normal.urgent {
+    background-color: @urgent;
+    text-color: @urgent-fg;
+}
+
+element selected.normal {
+    background-color: @selected;
+    text-color: @selected-fg;
+}
+
+element selected.urgent {
+    background-color: @urgent;
+    text-color: @selected-fg;
+}
+
+element-icon {
+    size: 1.0em;
+    background-color: inherit;
+    text-color: inherit;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+error-message {
+    background-color: @bg-alt;
+    border: 1px;
+    border-color: @border;
+}
