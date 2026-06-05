@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb20727298811c54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b076fc80aa136135",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "projects/tedit/todos.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "todos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bbb2fb5ffa88937e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a470f38997cf2de",
+        "type": "tabs",
+        "dimension": 56.762749445676285,
+        "children": [
+          {
+            "id": "4c6239fb1f211803",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "01dc1de6a4723ffd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "342a35dce47b6c60",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b41204987e66dd10",
+        "type": "tabs",
+        "dimension": 43.237250554323715,
+        "children": [
+          {
+            "id": "b56b85cf971743e5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "50c93905e9c8418a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "fdedf7e5e340c16c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a1a0e237dd7eadf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e29d2343a78a2e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "education/school/geschichte/ns_ideologie/rede_hitler.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for rede_hitler"
+            }
+          },
+          {
+            "id": "a54b9d0d065229d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "book_view.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from book_view"
+            }
+          },
+          {
+            "id": "3e65ff6c10e395bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "13bdd7a48b7ecf49",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "68b1acf788d116f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "projects/youtube/video_ideas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of video_ideas"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false
+    }
+  },
+  "active": "b076fc80aa136135",
+  "lastOpenFiles": [
+    "projects/youtube/video_ideas.md",
+    "education/books/cpp_20_the_complete_guide.pdf",
+    "database/books/C++20 - The Complete Guide (2021).md",
+    "education/book_view.base",
+    "education/books/cplusplus20stlcookbook.pdf",
+    "projects/tedit/todos.md",
+    "education/cpp/stl_cookbook_20/formatting_text.md",
+    "education/books/debunkingcplusplusmyths.pdf",
+    "database/books/Debunking C++ Myths (2024).md",
+    "notes/dailies/2026-05-27.md",
+    "notes/dailies/2026-05-27.md~",
+    "education/cpp/concepts/SFINAE.md",
+    "education/cpp/stl_cookbook_20/concepts_and_constraints.md~",
+    "education/cpp/stl_cookbook_20/concepts_and_constraints.md",
+    "education/cpp/stl_cookbook_20/spaceship_operator.md~",
+    "notes/dailies/2026-05-24.md~",
+    "notes/dailies/2026-05-24.md",
+    "projects/youtube/videos/tedit_buffer_source.mp4",
+    "education/cpp/resources/bjarne_stroustrup_podcast.md",
+    "education/cpp/cpp_weekly/040_inheriting_from_lambdas.md",
+    "education/school/bio/bio_lara_1.jpeg",
+    "education/school/bio/bio_lara_2.jpeg",
+    "notes/dailies/2026-05-21.md",
+    "education/school/geschichte/ns_ideologie/rede_hitler.md",
+    "education/school/geschichte/ns_ideologie/gewinnung_von_lebensraum_im_osten.jpg.jpg",
+    "education/school/geschichte/ns_ideologie",
+    "education/school/geschichte/ns_ideologie/aufbau_und_konsoldierung_der_ns_diktatur.jpg.jpg",
+    "education/school/geschichte/Rede Hitler.md",
+    "database/books/C++20 STL Cookbook (2022).md",
+    "notes/dailies/2026-05-20.md",
+    "education/university/cv_camp_2026/cv_idea.md",
+    "education/university/cv_camp_2026/cv_hook.md",
+    "education/university/cv_camp_2026/cv_camp_plan_video.md",
+    "education/cpp/stl_cookbook_20/spaceship_operator.md",
+    "education/school/ethik/strafen.md",
+    "education/school/english/contrast_definition.md.md",
+    "notes/dailies/2026-05-19.md",
+    "education/cpp/stl_cookbook_20/compare_integers_of_different_types.md",
+    "projects/youtube/thumbnails/structure_your_cpp_projects.png",
+    "notes/dailies/2026-05-18.md",
+    "projects/youtube/thumbnails/json_parser.png",
+    "projects/youtube/thumbnails/noexcept_matters.png",
+    "projects/youtube/thumbnails/obsidian_as_a_programmer.png",
+    "projects/youtube/thumbnails/obsidian_setup.png",
+    "projects/youtube/thumbnails/niche_cpp.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

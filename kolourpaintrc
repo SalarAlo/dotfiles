@@ -1,0 +1,27 @@
+[General Settings]
+First Time=false
+Last Document Size=1841,968
+Open Images in the Same Window=false
+
+[MainWindow][Toolbar Tool Box]
+ToolButtonStyle=IconOnly
+
+[Tool Settings]
+Last Used Tool=7
+Tool Widget Brush Col=0
+Tool Widget Brush Row=0
+Tool Widget Eraser Size Col=0
+Tool Widget Eraser Size Row=2
+Tool Widget Fill Style Col=0
+Tool Widget Fill Style Row=0
+Tool Widget Line Width Col=0
+Tool Widget Line Width Row=4
+Tool Widget Opaque/Transparent Col=0
+Tool Widget Opaque/Transparent Row=0
+Tool Widget Spraycan Size Col=0
+Tool Widget Spraycan Size Row=0
+
+[Undo/Redo Settings]
+Max Limit=500
+Max Limit Size Limit=16777216
+Min Limit=10

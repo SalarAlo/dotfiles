@@ -1,0 +1,5 @@
+{
+  "folder": "notes/dailies",
+  "format": "YYYY-MM-DD",
+  "template": "templates/daily.md"
+}

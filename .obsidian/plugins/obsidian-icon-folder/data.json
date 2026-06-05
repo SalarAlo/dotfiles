@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasMoneyBills",
+      "LiHistory",
+      "TiTeapot",
+      "LiBrain",
+      "TiMathIntegral"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "templates": "LiBookTemplate",
+  "notes": "CoNote",
+  "notes/dailies": "FasCalendarDays",
+  "projects": "LiHammer",
+  "projects/tedit": "SiVim",
+  "projects/eight_bit_breadboard_pc": "TiBread",
+  "education": "TiSchool",
+  "education/university": {
+    "iconName": "LiUniversity",
+    "iconColor": "#8c8c8c"
+  },
+  "education/university/third_semester": "TiMathIntegral",
+  "education/cpp": "SiCplusplus",
+  "education/cpp/concepts": "TiBook",
+  "education/cpp/cpp_weekly": "LiCode",
+  "education/pro_git": {
+    "iconName": "FabGitAlt",
+    "iconColor": "#d4d4d4"
+  },
+  "projects/youtube": "FabYoutube",
+  "database": "LiDatabase",
+  "education/book_view.base": "OcBook16",
+  "education/books": "LiBook",
+  "database/books": "LiBook",
+  "education/school": "LiSchool",
+  "education/school/ds": "SiPlaywright",
+  "education/cpp/stl_cookbook_20": "LiPen",
+  "education/university/cv_camp_2026": "LiCrown",
+  "education/school/ethik": "LiBrain",
+  "education/school/english": "TiTeapot",
+  "education/school/geschichte": "LiHistory",
+  "applying": "FasMoneyBills"
+}

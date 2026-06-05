@@ -1,0 +1,16 @@
+{
+  "accentColor": "#a3a3a3",
+  "theme": "obsidian",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "monochrome-void"
+  ],
+  "baseFontSize": 14,
+  "showRibbon": false,
+  "showViewHeader": true,
+  "baseFontSizeAction": false,
+  "textFontFamily": "FiraCode Nerd Font",
+  "interfaceFontFamily": "FiraCode Nerd Font",
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "nativeMenus": false
+}

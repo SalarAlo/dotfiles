@@ -2,12 +2,16 @@
 .agents/
 .android/
 .codex/
+LosslessCut/
+chromium/
 dconf/
+libreoffice/
 mozilla/
 obsidian/
 pulse/
 session/
 spotify/
+unity3d/
 
 # Nested repositories and editor/runtime artifacts
 **/.git/
