@@ -3,8 +3,12 @@
 .android/
 .codex/
 LosslessCut/
+Cursor/
+VirtualBox/
 chromium/
+cursor/
 dconf/
+discord/
 libreoffice/
 mozilla/
 obsidian/
@@ -35,6 +39,23 @@ obs-studio/user.ini
 obs-studio/basic/profiles/
 obs-studio/basic/scenes/
 user-dirs.dirs
+
+# Generated package-manager/editor state
+uv/
+fish/conf.d/uv.env.fish
+clangd/
+
+# Local desktop/app preferences that are not part of the shared setup
+QtProject.conf
+dev.iammodev.yakc/
+hypr/hyprland.lua
+kclockdrc
+kclockrc
+mimeapps.list
+okularpartrc
+okularrc
+pavucontrol.ini
+vlc/
 
 # OS/editor noise
 .DS_Store

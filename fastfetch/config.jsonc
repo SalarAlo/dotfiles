@@ -1,100 +1,56 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
-  "logo": {
-    "padding": {
-      "right": 2
-    }
-  },
-  "display": {
-    "separator": "  ",
-    "color": {
-      "keys": "cyan",
-      "title": "blue",
-      "output": "white"
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "small",
+        "padding": {
+            "right": 2
+        }
     },
-    "key": {
-      "width": 10
-    }
-  },
-  "modules": [
-    {
-      "type": "custom",
-      "format": "arch // workstation"
+
+    "display": {
+        "size": {
+            "binaryPrefix": "si"
+        },
+        "color": "blue",
+        "separator": ": "
     },
-    {
-      "type": "separator",
-      "string": "----------------"
-    },
-    {
-      "type": "os",
-      "key": "distro"
-    },
-    {
-      "type": "kernel",
-      "key": "kernel"
-    },
-    {
-      "type": "uptime",
-      "key": "uptime"
-    },
-    {
-      "type": "packages",
-      "key": "pkgs",
-      "combined": true
-    },
-    {
-      "type": "shell",
-      "key": "shell"
-    },
-    {
-      "type": "de",
-      "key": "desktop"
-    },
-    {
-      "type": "wm",
-      "key": "wm"
-    },
-    {
-      "type": "terminal",
-      "key": "term"
-    },
-    {
-      "type": "cpu",
-      "key": "cpu",
-      "temp": false,
-      "showPeCoreCount": false
-    },
-    {
-      "type": "gpu",
-      "key": "gpu",
-      "temp": false
-    },
-    {
-      "type": "memory",
-      "key": "mem"
-    },
-    {
-      "type": "disk",
-      "key": "disk",
-      "folders": "/",
-      "showExternal": false,
-      "showHidden": false,
-      "showSubvolumes": false,
-      "showReadOnly": false
-    },
-    {
-      "type": "battery",
-      "key": "battery"
-    },
-    {
-      "type": "locale",
-      "key": "locale"
-    },
-    "break",
-    {
-      "type": "colors",
-      "paddingLeft": 2,
-      "symbol": "circle"
-    }
-  ]
+
+    "modules": [
+        {
+            "type": "datetime",
+            "key": "Date",
+            "format": "{1}-{3}-{11}"
+        },
+        {
+            "type": "datetime",
+            "key": "Time",
+            "format": "{14}:{17}:{20}"
+        },
+
+
+        {
+            "type": "os",
+            "key": "OS"
+        },
+        {
+            "type": "kernel",
+            "key": "Kernel"
+        },
+        {
+            "type": "uptime",
+            "key": "Uptime"
+        },
+
+
+        {
+            "type": "memory",
+            "key": "RAM"
+        },
+        {
+            "type": "disk",
+            "key": "Disk",
+            "folders": ["/"]
+        }
+
+    ]
 }
