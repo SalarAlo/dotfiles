@@ -13,3 +13,9 @@ end)
 local main_mod = "SUPER"
 local terminal = "kitty"
 
+local function register_curves(curves_table)
+  for curve, curve_spec in pairs(curves_table) do
+    hl.curve(curve, curve_spec)
+  end
+end
+
