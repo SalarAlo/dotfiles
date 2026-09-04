@@ -25,3 +25,15 @@ local function register_monitors(monitors_table)
   end
 end
 
+local function register_anims(anims_tree)
+  for anim_leaf, anim_spec in pairs(anims_tree) do
+    hl.animation({
+      leaf = anim_leaf,
+      enabled = anim_spec.onoff,
+      speed = anim_spec.speed,
+      bezier = anim_spec.curve,
+      style = anim_spec.style,
+    })
+  end
+end
+
