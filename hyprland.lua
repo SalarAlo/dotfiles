@@ -10,3 +10,6 @@ hl.on("hyprland.start", function()
 end)
 
 
+local main_mod = "SUPER"
+local terminal = "kitty"
+
