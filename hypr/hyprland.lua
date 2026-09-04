@@ -173,3 +173,59 @@ local curves = {
 }
 
 register_curves(curves)
+
+
+local animations = {
+  ["windows"] = {
+    onoff = true,
+    speed = 6,
+    curve = "stylish",
+    style = "popin 96%",
+  },
+  ["windowsOut"] = {
+    onoff = true,
+    speed = 5,
+    curve = "smoothInOut",
+    style = "popin 96%",
+  },
+  ["border"] = {
+    onoff = true,
+    speed = 9,
+    curve = "subtle"
+  },
+  ["fade"] = {
+    onoff = true,
+    speed = 5,
+    curve = "smoothInOut",
+  },
+  ["layersIn"] = {
+    onoff = true,
+    speed = 5,
+    curve = "subtle",
+    style = "slide bottom",
+  },
+  ["layersOut"] = {
+    onoff = true,
+    speed = 4,
+    curve = "smoothInOut",
+    style = "slide bottom",
+  },
+  ["fadeLayersIn"] = {
+    onoff = true,
+    speed = 4,
+    curve = "subtle",
+  },
+  ["fadeLayersOut"] = {
+    onoff = true,
+    speed = 4,
+    curve = "smoothInOut",
+  },
+  ["workspaces"] = {
+    onoff = true,
+    speed = 6,
+    curve = "stylish",
+    style = "slide",
+  },
+}
+
+register_anims(animations)
