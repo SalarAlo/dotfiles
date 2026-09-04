@@ -277,3 +277,19 @@ for i in 1, 9 do
 end
 
 register_keybinds(keybinds)
+
+hl.define_submap("resize", function()
+  local submap_actions = {
+    ["H"] = hl.dsp.window.resize({ relative = true, x = -30, y = 0 }),
+    ["J"] = hl.dsp.window.resize({ relative = true, x = 30, y = 0 }),
+    ["K"] = hl.dsp.window.resize({ relative = true, x = 0, y = -30 }),
+    ["L"] = hl.dsp.window.resize({ relative = true, x = 0, y = 30 }),
+  }
+  local reset_binds = {
+    [main_mod .. " + R"] = hl.dsp.submap("reset"),
+    ["ESCAPE"] = hl.dsp.submap("reset"),
+    ["RETURN"] = hl.dsp.submap("reset")
+  }
+  register_keybinds(submap_actions, true)
+  register_keybinds(reset_binds)
+end)
