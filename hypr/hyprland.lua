@@ -60,3 +60,78 @@ local monitors = {
 }
 
 register_monitors(monitors)
+
+
+hl.config({
+  input = {
+    kb_layout = "de",
+    follow_mouse = 1,
+    sensitivity = 0,
+    touchpad = {
+      natural_scroll = false,
+    }
+  },
+  general = {
+    gaps_in = 5,
+    gaps_out = 5,
+    border_size = 2,
+    col = {
+      active_border = {
+        colors = { "rgba(ffffffff)", "rgba(ffffffff)" },
+        angle = 45,
+      },
+      inactive_border = "rgba(00000000)",
+    },
+    resize_on_border = false,
+    allow_tearing = false,
+    layout = "dwindle",
+  },
+  animations = {
+    enabled = true
+  },
+  decoration = {
+    rounding = 5,
+    rounding_power = 2,
+    active_opacity = 1,
+    inactive_opacity = .98,
+
+    shadow = {
+      enabled = false
+    },
+
+    blur = {
+      enabled = false
+    },
+  },
+  dwindle = {
+    preserve_split = true
+  },
+
+  master = {
+    new_status = "master",
+  },
+  group = {
+    col = {
+      border_active = "rgba(ffffffff)",
+      border_inactive = "rgba(ffffff66)",
+      border_locked_active = "rgba(ffffffff)",
+      border_locked_inactive = "rgba(ffffff66)",
+    },
+
+    groupbar = {
+      text_color = "rgba(ffffffff)",
+      col = {
+        active = "rgba(ffffffff)",
+        inactive = "rgba(ffffff66)",
+        locked_active = "rgba(ffffffff)",
+        locked_inactive = "rgba(ffffff66)",
+      }
+    }
+  },
+
+  misc = {
+    force_default_wallpaper = -1,
+    disable_hyprland_logo = false,
+  }
+
+})
