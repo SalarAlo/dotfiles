@@ -293,3 +293,50 @@ hl.define_submap("resize", function()
   register_keybinds(submap_actions, true)
   register_keybinds(reset_binds)
 end)
+
+hl.window_rule({
+  match = {
+    class = "^(origo)$"
+  },
+  workspace = "4",
+})
+
+
+hl.window_rule({
+  match = {
+    class = "^(origo)$"
+  },
+  workspace = "4",
+})
+
+hl.window_rule({
+  match = {
+    class = "^(kitty)$"
+  },
+  opacity = "0.90 0.98"
+})
+
+hl.window_rule({
+  match = {
+    class = "^(unmanaged)$"
+  },
+  float = true,
+  move = { 5, 50 },
+  size = { 1900, 1000 },
+})
+
+
+hl.window_rule({
+  match = {
+    class = "^(Godot)$"
+  },
+  tile = true
+})
+
+
+hl.window_rule({
+  match = {
+    class = ".*"
+  },
+  suppress_event = "maximize"
+})
