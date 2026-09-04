@@ -48,7 +48,6 @@ clangd/
 # Local desktop/app preferences that are not part of the shared setup
 QtProject.conf
 dev.iammodev.yakc/
-hypr/hyprland.lua
 kclockdrc
 kclockrc
 mimeapps.list
