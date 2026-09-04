@@ -140,3 +140,36 @@ hl.device({
   name = "epic-mouse-v1",
   sensitivity = -0.5
 })
+
+local curves = {
+  ["smoothOut"] = {
+    type = "bezier",
+    points = {
+      { 0.25, 0.9 },
+      { 0.35, 1.0 },
+    }
+  },
+  ["smoothInOut"] = {
+    type = "bezier",
+    points = {
+      { 0.4, 0.0 },
+      { 0.2, 1.0 },
+    },
+  },
+  ["subtle"] = {
+    type = "bezier",
+    points = {
+      { 0.22, 0.9 },
+      { 0.3,  1.0 },
+    }
+  },
+  ["stylish"] = {
+    type = "bezier",
+    points = {
+      { 0.2,  1.0 },
+      { 0.15, 1.0 },
+    }
+  },
+}
+
+register_curves(curves)
