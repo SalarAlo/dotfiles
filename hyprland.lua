@@ -19,3 +19,9 @@ local function register_curves(curves_table)
   end
 end
 
+local function register_monitors(monitors_table)
+  for _, monitor in pairs(monitors_table) do
+    hl.monitor(monitor)
+  end
+end
+
