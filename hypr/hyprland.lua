@@ -229,3 +229,51 @@ local animations = {
 }
 
 register_anims(animations)
+
+
+local keybinds = {
+  [main_mod .. " + S"] = hl.dsp.exec_cmd("hyprshot -m region"),
+  [main_mod .. " + Z"] = hl.dsp.exec_cmd("woomer"),
+  [main_mod .. " + V"] = hl.dsp.exec_cmd("~/.local/bin/screenrecord-toggle.sh"),
+  [main_mod .. " + D"] = hl.dsp.exec_cmd("rofi -show drun"),
+  [main_mod .. " + RETURN"] = hl.dsp.exec_cmd(terminal),
+  [main_mod .. " + Q"] = hl.dsp.window.kill(),
+  [main_mod .. " + SHIFT + Q"] = hl.dsp.window.close(),
+  [main_mod .. " + H"] = hl.dsp.focus({ direction = "left" }),
+  [main_mod .. " + J"] = hl.dsp.focus({ direction = "down" }),
+  [main_mod .. " + K"] = hl.dsp.focus({ direction = "up" }),
+  [main_mod .. " + L"] = hl.dsp.focus({ direction = "right" }),
+  [main_mod .. " + SHIFT + H"] = hl.dsp.window.move({ direction = "left" }),
+  [main_mod .. " + SHIFT + J"] = hl.dsp.window.move({ direction = "down" }),
+  [main_mod .. " + SHIFT + K"] = hl.dsp.window.move({ direction = "up" }),
+  [main_mod .. " + SHIFT + L"] = hl.dsp.window.move({ direction = "right" }),
+  [main_mod .. " + F"] = hl.dsp.window.float(),
+  [main_mod .. " + R"] = hl.dsp.exec_cmd("hyprctl reload"),
+  [main_mod .. " + SHIFT + R"] = hl.dsp.exec_cmd("$HOME/.config/hypr/set-wallpaper.sh"),
+  [main_mod .. " + mouse:272"] = hl.dsp.window.move(),
+  [main_mod .. " + mouse:273"] = hl.dsp.window.resize(),
+  [main_mod .. " + T"] = hl.dsp.group.toggle(),
+  [main_mod .. " + TAB"] = hl.dsp.group.next(),
+  [main_mod .. " + SHIFT + TAB"] = hl.dsp.group.prev(),
+  [main_mod .. " + SHIFT + T"] = hl.dsp.window.move({ out_of_group = true, }),
+  [main_mod .. " + 0"] = hl.dsp.focus({ workspace = "0" }),
+  [main_mod .. " + SHIFT + 0"] = hl.dsp.window.move({ workspace = "0" }),
+  [main_mod .. " + E"] = hl.dsp.submap("resize"),
+}
+
+for i in 1, 9 do
+  hl.bind(
+    main_mod .. " + " .. tostring(i),
+    hl.dsp.focus({ workspace = tostring(i) })
+  )
+end
+
+
+for i in 1, 9 do
+  hl.bind(
+    main_mod .. " + SHIFT + " .. tostring(i),
+    hl.dsp.window.move({ workspace = tostring(i) })
+  )
+end
+
+register_keybinds(keybinds)
