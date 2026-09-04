@@ -44,3 +44,19 @@ local function register_keybinds(keybibdings, rep)
   end
 end
 
+local monitors = {
+  primaryMonitor = {
+    output = "HDMI-A-2",
+    mode = "preferred",
+    position = "0x0",
+    scale = 1
+  },
+  secondaryMonitor = {
+    output = "HDMI-A-1",
+    mode = "preferred",
+    position = "1920x0",
+    scale = 1
+  },
+}
+
+register_monitors(monitors)
